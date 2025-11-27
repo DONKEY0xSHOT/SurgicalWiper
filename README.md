@@ -1,5 +1,4 @@
 # SurgicalWiper
-# Surgical Wiper: Structural Data Sanitization PoC
 
 ## ⚠️ IMPORTANT: EDUCATIONAL PURPOSE ONLY
 
