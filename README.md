@@ -10,7 +10,7 @@ Traditional wiping tools and ransomware methodologies rely on brute-force execut
 
 **This PoC is different.** Instead of destroying the data, it destroys the *logic*, or the grammar, required to interpret it.
 
-By targeting specific "structural keystones," such as the Document Catalog in PDFs or the Huffman Tables in DOCX files, this tool renders files irretrievable while overwriting less than **0.01%** of the file's content.
+By targeting specific "structural keystones," such as the Document Catalog in PDFs or the Huffman Tables in DOCX files, this tool renders files irretrievable while (on average) overwriting less than **0.01%** of the file's content.
 
 ## Evasion & Detection Analysis
 
