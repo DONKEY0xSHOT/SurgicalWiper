@@ -14,7 +14,7 @@ By targeting specific "structural keystones," such as the Document Catalog in PD
 
 ## Evasion & Detection Analysis
 
-**VirusTotal Detection Rate: 2 / 70** (At time of testing)
+**VirusTotal Detection Rate: 2 / 72** (At time of testing)
 <img width="1148" height="203" alt="image" src="https://github.com/user-attachments/assets/a13fca60-b1a5-481f-9288-18a115736391" />
 
 The exceptionally low detection rate is not a bug. It is the architectural feature of this approach. Most AVs rely on specific heuristics that this PoC intentionally avoids:
