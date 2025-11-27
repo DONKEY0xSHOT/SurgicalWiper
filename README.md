@@ -6,8 +6,6 @@
 
 ## Overview
 
-This project demonstrates a paradigm shift in anti-forensics known as **Surgical Data Sanitization**.
-
 Traditional wiping tools and ransomware methodologies rely on brute-force execution. They overwrite every addressable block of a file. While effective, this approach is noisy. It generates massive I/O signatures, spikes CPU usage, and dramatically alters file entropy, making it trivially detectable by Endpoint Detection and Response (EDR) systems and Heuristic AVs.
 
 **This PoC is different.** Instead of destroying the data, it destroys the *logic*, or the grammar, required to interpret it.
