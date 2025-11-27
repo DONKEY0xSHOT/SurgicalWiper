@@ -20,7 +20,7 @@ By targeting specific "structural keystones," such as the Document Catalog in PD
 The exceptionally low detection rate is not a bug. It is the architectural feature of this approach. Most AVs rely on specific heuristics that this PoC intentionally avoids:
 
 1.  **I/O Invisibility:** Security monitoring often flags processes that write megabytes of data in short bursts. This wiper modifies only \~50-100 bytes per file on average.
-2.  **Entropy Preservation:** Ransomware & Wiper samples usually drastically change the entropy of each touched file. Because we only touch metadata headers, the overall entropy of the file remains statistically unchanged, bypassing entropy-based heuristics.
+2.  **Entropy Preservation:** Destructive samples usually drastically change the entropy of each touched file. Because we only touch metadata headers, the overall entropy of the file remains statistically unchanged, bypassing entropy-based heuristics.
 3.  **The "Corrupted" Masquerade:** The files are not deleted. They remain on the disk with their original size and headers intact. To the OS, they look healthy. To the parser, they are dead.
 
 ## Technical Approach
