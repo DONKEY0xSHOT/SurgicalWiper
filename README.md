@@ -44,7 +44,6 @@ The core of the project utilizes a Strategy Pattern in C++ (`IWiperStrategy`) to
 ## Project Structure
 
 ```text
-.
 ├── main.cpp              # Entry point; defines target directory
 ├── FileProcessor.cpp     # Recursively scans directories and identifies file types
 ├── PdfStrategy.cpp       # Implements the "Graph Severing" logic for .pdf
